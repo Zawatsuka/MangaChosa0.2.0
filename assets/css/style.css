@@ -1,0 +1,60 @@
+html,
+body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 2500px) {
+    .bg-img {
+        background: url(../img/nav-bar.png) no-repeat;
+        background-size: 100%;
+
+    }
+
+    .text-change {
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .bg-img {
+        background: url(../img/test.png) no-repeat;
+        background-size: 100%;
+
+    }
+
+    .text-change {
+        font-size: 18px;
+    }
+
+    .nav-burger {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+}
+.searchbar {
+    border-style: none;
+    height: 32px;
+}
+
+.sizingDiv {
+    height: 100%;
+    width: 100%;
+}
+
+.sizingLeft {
+    height: 100%;
+    width: 60%;
+}
+.position-i{
+    position: relative;
+    z-index: 30;
+}
